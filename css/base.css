@@ -1,6 +1,19 @@
 body {
     text-align: center;
 }
+.test {
+    background-color: pink;
+    height: 10px;
+}
+.test1 {
+    background-color: pink;
+}
+.test2 {
+    background-color: red;
+}
+.test3 {
+    background-color: red;
+}
 @font-face {
     font-family: 'icomoon';
     src:  url('../icomoon/fonts/icomoon.eot?6frd4s');
@@ -63,4 +76,118 @@ i {
     justify-content: center;
     align-items: center;
     background-color: white;
+}
+.head-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.article-title {
+    font-weight: bold;
+}
+.article-photo {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+}
+.article-content p::first-letter {
+    font-size: 300%;
+    color: black;
+}
+.head-search {
+    height: 540px;
+    background: -webkit-linear-gradient(left bottom, #d9e7e7 , #b4d3d3); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom left, #d9e7e7 , #b4d3d3); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom left, #d9e7e7 , #b4d3d3); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to top right, #d9e7e7 , #b4d3d3); /* 标准的语法 */
+}
+.center-content {
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+.center-nav {
+    height: 110px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+}
+.center-link-blcok {
+
+}
+.center-link-blcok a {
+    color: #afafb3;
+    padding-bottom: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 32px;
+}
+.center-nav a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}
+
+.center-nav-photos {
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.photo1 {
+    background-color: #e2e8e8;
+    height: 300px;
+}
+.photo2 {
+    background-color: #d3dcdc;
+    height: 300px;
+}
+.photo3 {
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    height: 300px;
+}
+.photo4 {
+    background-color: #d3dcdc;
+    height: 300px;
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3dcdc;
+    height: 60px;
+    width: 60px;
+    margin: 6px;
+}
+.photo3-text {
+    align-self: flex-end;
+    color: white;
+    margin-bottom: 20px;
+}
+.photo-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo-ahead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot {
+    margin-top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.foot-col {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
 }
